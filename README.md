@@ -37,13 +37,7 @@ Website ini menyediakan informasi lowongan kerja terbaru dan terpercaya.
 
 ```
 .vscode/
-  
-
 settings.json
-
-
-
-
 index.html
 
 
@@ -100,4 +94,3 @@ Untuk informasi lebih lanjut, Anda dapat menghubungi kami di:
 
 Desain oleh wongirengsigma.
 
-```
