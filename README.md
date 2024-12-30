@@ -1,4 +1,3 @@
-```markdown
 # Info Lowongan Kerja
 
 Website ini menyediakan informasi lowongan kerja terbaru dan terpercaya.
@@ -12,6 +11,7 @@ Website ini menyediakan informasi lowongan kerja terbaru dan terpercaya.
 
 ## Struktur Proyek
 
+
 ```
 .vscode/
    settings.json
@@ -22,8 +22,6 @@ style/
    body.css
    general.css
    header.css
-
-
 ```
 
 ## Penggunaan
