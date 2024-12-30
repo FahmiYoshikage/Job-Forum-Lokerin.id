@@ -1,0 +1,151 @@
+/* hero section start */
+.upper {
+  background-color: #f3f3f3;
+}
+
+.upper-container {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.upper-container h1 {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.upper-container p {
+  font-size: 1.6rem;
+  color: gray;
+  margin-bottom: 4rem;
+}
+
+.email-box {
+  display: flex;
+}
+
+.upper-container input[type="email"] {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+.upper-container button {
+  background-color: rgb(243, 106, 62);
+  color: white;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.lower {
+  margin: 6rem 0;
+}
+
+.lower-container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.post {
+  border-bottom: 0.1rem solid #ddd;
+  padding: 3rem 0;
+}
+.post:last-child {
+  border-bottom: none;
+}
+.post-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+.post-meta {
+  font-size: 1.4rem;
+  color: gray;
+  margin: 0 0 1rem;
+}
+.post-content {
+  font-size: 1.6rem;
+  margin: 0 0 2rem;
+}
+.read-more {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: black;
+  text-decoration: none;
+  border: 0.1rem solid #ddd;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+.read-more:hover {
+  background-color: #333;
+  color: #fff;
+}
+/* hero section start */
+
+/* footer section start */
+.footer {
+  background-color: #ff6724;
+  color: white;
+  padding: 4rem 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.footer .container div {
+  flex: 1;
+  min-width: 20rem;
+  margin: 1rem 0;
+}
+.footer h4 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.footer p, .footer a {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+.underline a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer .social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.8rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: 0.1rem solid white;
+  border-radius: 50%;
+}
+.footer .social-icons a:hover {
+  background-color: white;
+  color: #ff6724;
+}
+.footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 0.1rem solid #fff;
+  padding-top: 2rem;
+}
+.footer .copyright a {
+  color: white;
+}
+/* footer section end */

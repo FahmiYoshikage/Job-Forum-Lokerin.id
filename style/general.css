@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Roboto, Arial;
+  background-color: white;
+}
+svg {
+  position: fixed; /* Keep the SVG fixed */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Position it at the left of the viewport */
+  width: 100%; /* Make it full width */
+  z-index: 1; /* Send it behind other content */
+}
