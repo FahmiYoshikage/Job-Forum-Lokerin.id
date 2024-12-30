@@ -60,4 +60,3 @@ Untuk informasi lebih lanjut, Anda dapat menghubungi kami di:
 ## Desain
 
 Desain oleh wongirengsigma.
-
