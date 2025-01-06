@@ -168,7 +168,7 @@ body.dark-mode .logo {
 }
 
 body.dark-mode .icon {
-  color: #e0e0e0;
+  color: white;
 }
 
 body.dark-mode .upper {
@@ -183,10 +183,6 @@ body.dark-mode .upper-container input[type="email"] {
 
 body.dark-mode .upper-container button {
   background-color: #ff5722;
-}
-
-body.dark-mode .lower {
-  background-color: #1e1e1e;
 }
 
 body.dark-mode .post {
@@ -237,5 +233,37 @@ body.dark-mode .footer .social-icons a:hover {
 body.dark-mode .footer .copyright {
   border-top: 0.1rem solid #444;
 }
+
+/* Transisi untuk body */
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode .upper{
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Gaya untuk Dark Mode */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Jika Anda ingin transisi pada link atau elemen lainnya */
+a {
+  transition: color 0.5s ease;
+}
+
+/* Transisi pada ikon */
+#dark-mode-icon i {
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* Gaya saat Dark Mode */
+.dark-mode #dark-mode-icon i {
+  transform: rotate(180deg);
+  color: yellow;
+}
+
 
 /* dark mode end */
