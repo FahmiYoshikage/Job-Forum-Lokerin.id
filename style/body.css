@@ -149,3 +149,93 @@
   color: white;
 }
 /* footer section end */
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+/* 
+body.dark-mode .header {
+  background-color: #1e1e1e;
+} */
+
+body.dark-mode .logo {
+  /* color: #e0e0e0; */
+  color: white;
+}
+
+body.dark-mode .icon {
+  color: #e0e0e0;
+}
+
+body.dark-mode .upper {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .upper-container input[type="email"] {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}
+
+body.dark-mode .upper-container button {
+  background-color: #ff5722;
+}
+
+body.dark-mode .lower {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .post {
+  border-bottom: 0.1rem solid #444;
+}
+
+body.dark-mode .post-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .post-meta {
+  color: #b0b0b0;
+}
+
+body.dark-mode .post-content {
+  color: #e0e0e0;
+}
+
+body.dark-mode .read-more {
+  color: #e0e0e0;
+  border: 0.1rem solid #444;
+}
+
+body.dark-mode .read-more:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .footer {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .footer a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .footer .social-icons a {
+  color: #e0e0e0;
+  border: 0.1rem solid #e0e0e0;
+}
+
+body.dark-mode .footer .social-icons a:hover {
+  background-color: #e0e0e0;
+  color: #1e1e1e;
+}
+
+body.dark-mode .footer .copyright {
+  border-top: 0.1rem solid #444;
+}
+
+/* dark mode end */
